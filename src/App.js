@@ -23,7 +23,7 @@ function App() {
       return;
     }
     dispatch(sendCartData(cart))
-  },[cart,dispatch]);
+  },[cart,dispatch,isFirstRender]);
 
   
 
