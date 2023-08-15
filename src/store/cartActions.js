@@ -41,6 +41,7 @@ export const sendCartData= (cart)=>{
               body:JSON.stringify(cart)
             })
             const data=res.json();
+            console.log(data);
             dispatch(uiActions.showNotification({
               open:true,
               message:'Sent Request to the Database Successfully',

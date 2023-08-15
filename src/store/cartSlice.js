@@ -1,5 +1,4 @@
 import {createSlice} from '@reduxjs/toolkit'
-import { uiActions } from './uiSlice';
 
 const cartSlice=createSlice({
     name:'cart',
